@@ -1,0 +1,192 @@
+.main-page {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    background-color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    width: 70px;
+    margin-right: 10px; /* Adjusted for spacing */
+}
+
+.monotext {
+    font-family: 'Beau Rivage', cursive; /* Apply Beau Rivage font */
+    font-size: 40px; /* Adjust size as needed */
+    color: #9A0E0E;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.sangmeet-text {
+    font-family: 'Beau Rivage', cursive; /* Apply Beau Rivage font */
+    font-weight: normal;
+    color: #9A0E0E;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.auth-buttons .register-button {
+    background-color: #fff !important;
+    color: #9A0E0E !important;
+    border: 2px solid #9A0E0E !important;
+    padding: 10px 20px !important;
+    font-size: 15px !important;
+    border-radius: 50px !important;
+    cursor: pointer !important;
+}
+
+.auth-buttons .register-button:hover {
+    background-color: #f0f0f0; /* Light gray on hover */
+}
+
+.register-button, .login-button {
+    background-color: #fff; /* Set to white or any color matching the login button */
+    color: #9A0E0E; /* Text color, adjust as needed */
+    border: 2px solid #9A0E0E; /* Border color */
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+  
+.register-button:hover, .login-button:hover {
+    background-color: #f0f0f0; /* Light gray for hover effect */
+}
+  
+.intro-section {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.intro-content {
+    display: flex;
+    align-items: center;
+    max-width: 800px; /* Optional: limit width for better centering */
+    width: 100%; /* Ensure it uses available width */
+}
+
+.intro-text{
+    font-size: 25px;
+}
+
+.image1 {
+    width: 60%; /* Adjust as needed for responsiveness */
+    height: auto;
+}
+
+.intro-text {
+    margin-left: 25px; /* Spacing between image and text */
+    text-align: left; /* Align text to the left */
+}
+
+
+.about-section {
+    padding: 20px;
+    background-color: #fff;
+    max-width: 800px;
+    font-size: 25px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.about-section h2 {
+    color: #000; /* Black for "About" */
+  }
+
+
+.success-stories-section {
+    padding: 20px;
+    background-color: #fff;
+    overflow: hidden; /* Prevent overflow */
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.success-stories-section h2 {
+    color: #000; /* Black for "Some" and "Success Stories" */
+    text-align: center;
+  }
+  
+  .success-story-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Position for animation */
+    width: 100%; /* Full width */
+    max-width: 800px; /* Optional: limit width */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .success-story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 1; /* Start visible */
+  }
+  
+  .couple-image {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+  }
+  
+  /* Navigation button styles */
+  .nav-button {
+    background-color: transparent;
+    border: none;
+    font-size: 2rem; /* Adjust size as needed */
+    cursor: pointer;
+    padding: 0 20px; /* Adjust padding for spacing */
+  }
+  
+  .nav-button:hover {
+    color: #a62a2a; /* Change color on hover */
+  }
+  
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #9A0E0E;
+    color: white;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-aligns content horizontally */
+    text-align: center; /* Ensures text is centered below the image */
+  }
+  
+.footer-logo img {
+    width: 80px;
+    height: auto;
+    margin: 0 auto; /* Centers the image */
+}
+
+.contact-info,
+.wedding-message,
+.footer-logo {
+    margin-bottom: 10px;
+}
