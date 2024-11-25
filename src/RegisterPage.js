@@ -16,6 +16,11 @@ function RegisterPage() {
       </div>
       <form className="register-form">
         <div className="form-group">
+          <label>Full Name</label>
+          <input type="text" required />
+        </div>
+
+        <div className="form-group">
           <label>Username</label>
           <input type="text" required />
         </div>
@@ -41,12 +46,47 @@ function RegisterPage() {
         </div>
 
         <div className="form-group">
+          <label>Gender</label>
+          <input type="text" required />
+        </div>
+
+        <div className="form-group">
+          <label>Height</label>
+          <input type="text" required />
+        </div>
+
+        <div className="form-group">
           <label>Date Of Birth</label>
           <input type="date" required />
         </div>
 
         <div className="form-group">
           <label>Religion</label>
+          <input type="text" required />
+        </div>
+
+        <div className="form-group">
+          <label>Caste</label>
+          <input type="text" required />
+        </div>
+
+        <div className="form-group">
+          <label>Marital Status</label>
+          <input type="text" required />
+        </div>
+
+        <div className="form-group">
+          <label>Mother Tongue</label>
+          <input type="text" required />
+        </div>
+
+        <div className="form-group">
+          <label>Country</label>
+          <input type="text" required />
+        </div>
+
+        <div className="form-group">
+          <label>State</label>
           <input type="text" required />
         </div>
 
