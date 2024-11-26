@@ -1,0 +1,88 @@
+.app {
+    background-color: #f7fafc; 
+}
+
+.navbar {
+    background-color: #f56565; 
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo {
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.search-container {
+    display: flex;
+    /* position: relative; */
+    margin-left: 15rem;
+}
+
+.search-input {
+    margin-left: 10rem;
+    padding-left: 1rem;
+    padding-right: 2.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 9999px; 
+    border: none;
+    outline: none;
+}
+
+.search-icon {
+    position: absolute;
+    right: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #a0aec0; 
+}
+
+.navbar-right {
+    display: flex;
+    gap: 1.5rem;
+    color: white;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    transition: text-decoration 0.2s;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.secondary-nav {
+    background-color: #edf2f7; /* Tailwind's gray-200 */
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    color: #4a5568; /* Tailwind's gray-700 */
+}
+
+.secondary-link {
+    text-decoration: none;
+    color: #4a5568; /* Tailwind's gray-700 */
+    transition: text-decoration 0.2s;
+}
+
+.secondary-link:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    padding: 1rem;
+}

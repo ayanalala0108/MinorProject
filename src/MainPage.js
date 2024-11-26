@@ -38,6 +38,10 @@ function MainPage() {
     navigate("/register"); // Navigate to the Register page
   };
 
+  const openSignPage = () => {
+    navigate("/sign"); // Navigate to the Register page
+  };
+
   return (
     <div className="main-page">
       <header className="header">
@@ -49,7 +53,9 @@ function MainPage() {
           <button className="register-button" onClick={openRegisterPage}>
             Register
           </button>
-          <button className="login-button">Login</button>
+          <button className="login-button" onClick={openSignPage}>
+            Login
+          </button>
         </div>
       </header>
       <section className="intro-section">
