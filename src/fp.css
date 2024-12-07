@@ -1,0 +1,84 @@
+/* body {
+    background-color: #f7fafc; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  } */
+  
+  .headerFp {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f56565; 
+    color: white;
+    padding: 0.5rem 1rem;
+    text-align: left;
+  }
+  
+  .name {
+    font-weight: bold;
+  }
+  
+  .fp-container {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+  }
+  
+  .fp-form {
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+  }
+  
+  .fp-form h2 {
+    text-align: center;
+    color: #e53e3e; 
+    margin-bottom: 1rem;
+  }
+  
+  .fp-form label {
+    display: block;
+    color: #4a5568; 
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .fp-form input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #cbd5e0; 
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    transition: border-color 0.2s;
+  }
+  
+  .fp-form input:focus {
+    outline: none;
+    border-color: #f56565; 
+  }
+  
+  /* .remember-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .forgot-password {
+    color: #3182ce; 
+    font-weight: bold;
+  } */
+  
+  .setNewP-button {
+    background-color: #f56565; 
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem;
+    border: none;
+    margin-left: 7rem;
+}

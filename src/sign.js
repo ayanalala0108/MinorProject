@@ -54,7 +54,7 @@ const Sign = () => {
             />
             Remember Me
           </label>
-          <a href="#" className="forgot-password">
+          <a href="/fp" className="forgot-password">
             Forgot Password?
           </a>
         </div>
