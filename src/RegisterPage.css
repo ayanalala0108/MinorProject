@@ -99,7 +99,7 @@
     left: 22px;
   }
   
-  .register-button {
+  .pvbutton {
     width: 100%;
     padding: 10px;
     background-color: #ff6b6b;
@@ -111,7 +111,7 @@
     font-weight: bold;
   }
   
-  .register-button:hover {
+  .pvbutton:hover {
     background-color: #ff5757; /* Darker coral color for hover */
   }
   

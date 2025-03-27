@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  
+  .my-profile-container {
+    width: 100%;
+    margin-top: 80px;
+  }
+  
+  .mheader {
+    background-color: #f56565;
+    color: white;
+    padding: 15px;
+    text-align: left;
+    font-size: 24px;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-left: 20px;
+  }
+  
+  .mwebsite-name {
+    margin: 0;
+    font-family: 'Beau Rivage', cursive;
+  }
+  
+  .mpintro-text {
+    text-align: center;
+    margin: 130px 0 20px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .mpquestionnaire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .mpquestion-box {
+    background-color: white;
+    padding: 40px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .mpquestion-text {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .mpoptions {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .options label {
+    margin: 10px 0;
+  }
+
+  .pp-button {
+    background-color: #f56565; 
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem;
+    border: none;
+    margin-left: 7rem;
+  }
+  

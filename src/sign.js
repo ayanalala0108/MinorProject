@@ -13,11 +13,10 @@ const Sign = () => {
       alert("Please fill in both fields.");
       return;
     } else {
-      navigate("/dashboard");
+      navigate("/MyProfile");
     }
   };
 
-  // Handle login logic here (e.g., API call)
   console.log("Email:", email);
   console.log("Password:", password);
   console.log("Remember Me:", rememberMe);
@@ -66,4 +65,4 @@ const Sign = () => {
   );
 };
 
-export default Sign; // Correct export
+export default Sign;

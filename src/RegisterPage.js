@@ -1,11 +1,16 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./RegisterPage.css";
 
 function RegisterPage() {
+  const navigate = useNavigate();
   const [isParentalVigilance, setIsParentalVigilance] = useState(false);
 
   const handleToggle = () => {
     setIsParentalVigilance((prevState) => !prevState);
+  };
+  const handleSignIn = () => {
+    navigate("/Vigilance");
   };
 
   return (
@@ -56,7 +61,7 @@ function RegisterPage() {
         </div>
 
         <div className="form-group">
-          <label>Date Of Birth</label>
+          <label>Height</label>
           <input type="date" required />
         </div>
 
@@ -122,8 +127,11 @@ function RegisterPage() {
           </div>
         </div>
 
-        <button type="submit" className="register-button">
+        {/* <button type="submit" className="register-button">
           Register
+        </button> */}
+        <button onClick={handleSignIn} className="pvbutton">
+          Go to PV
         </button>
       </form>
     </div>
